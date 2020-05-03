@@ -25,7 +25,7 @@ def literal_aoh
 end
 
 def aoh_lookup(aoh, row, key)
-  infinite_jest 
+  infinite_jest
 end
 
 def aoh_update(aoh, row, key, new_value)
