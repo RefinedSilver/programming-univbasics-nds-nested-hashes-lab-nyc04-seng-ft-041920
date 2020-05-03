@@ -10,7 +10,7 @@ def assembled_aoh
   # Build an array that contains (or, "nests") the constants into a single
   # Array. Ruby constants are denoted by ALL_CAPS
   infinite_jest = [
-    DON_G = { name:  "Don Gately", occupation: "Live-in Staff" }
+    DON_G.sort = { name:  "Don Gately", occupation: "Live-in Staff" }
     JOELLE_VD = { name:  "Joelle van Dyne", occupation: "Radio Personality" }
     PAT_M =  { name:  "Pat Monteseian", occupation: "Staff" }
     KATE_G = { name:  "Kate Gompert", occupation: "None" }
